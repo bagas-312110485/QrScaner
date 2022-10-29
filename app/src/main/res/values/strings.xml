@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hello World</string>
+    <string name="my_qr_scanner">My QR Scanner</string>
+    <string name="textqr">textQR</string>
 </resources>

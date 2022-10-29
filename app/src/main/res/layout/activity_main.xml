@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="textQR"
+        android:text="@string/textqr"
         android:textColor="#fff"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="My QR Scanner"
+        android:text="@string/my_qr_scanner"
         android:textColor="#fff"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,13 +66,15 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="80sp"
                     android:layout_height="80sp"
-                    app:srcCompat="@drawable/ico_rescan" />
+                    app:srcCompat="@drawable/ico_rescan"
+                    android:contentDescription="TODO" />
 
                 <TextView
                     android:id="@+id/textView"
